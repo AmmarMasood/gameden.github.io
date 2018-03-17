@@ -1,0 +1,66 @@
+body,html{
+  height: 100%;
+  width: 100%;
+}
+body{
+	background-image: url("ben-neale-297658-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	background-color: transparent!important;
+}
+.navbar-brand{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'IBM Plex Mono', monospace;
+    color: white!important;
+}
+.nav-link{
+	color: white!important;
+	font-size: 20px;
+}
+.navbar-toggler{
+	border:5px solid rgba(231, 14, 14, 0.6)!important ;
+	border-radius: 10px!important;
+
+}
+.container{
+	margin-top: 100px;
+	background-color: rgba(213, 147, 147, 0.2);
+	border:5px solid rgb(213, 147, 147);
+}
+
+.row-1{
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 10%;
+}
+.row-1 h1{
+  font-size: 40px;
+  color: rgb(243, 176, 0);
+  align-self: center;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.row-2{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 10%;
+    justify-content: space-around;
+ 
+
+}
+.btn{
+	flex:0 4 auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	border:5px solid rgb(231, 14, 14);
+	transition: transform 1s;
+}
+.btn:hover{
+	background-color: rgba(231, 14, 14, 0.6);
+	transform: scale(1.2);
+}
